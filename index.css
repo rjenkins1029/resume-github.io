@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+  }
+ 
+  
+  .container {
+    font-style: oblique;
+    color: whitesmoke;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 140px 10px;
+    text-align: right;
+   
+  }
+  
+ 
+  .jumbotron {
+    height: 800px;
+    background-image: url("https://cutewallpaper.org/21/anime-gif-wallpaper/Animated-GIFs-for-use-in-wallpapers.gif");
+    -webkit-background-size: absolute;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+  }
+  
+  .about__me {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    
+
+  }
+
+  .about__me--p {
+    text-align: center;
+    font-style:inherit;
+    font-size: 150%;
+    color: whitesmoke;
+    padding-left: 15%;
+    padding-right: 15%;
+
+  }
+  
+  body {
+    background: #3b345fb9;
+  }
+  
+  .timeline {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: whitesmoke;
+  }
+  
+  .timeline__component {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .timeline__component--bg {
+    padding: 1.5em;
+    background: cross-fade();
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
+    position: relative;
+    background: black;
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+    color: black;
+  }
+
+  .timeline__date {
+    color:  black;
+  }
+  
+  .timeline__title { 
+    margin: 0;
+    font-size: 1.15em;
+    color:black;
+    
+  }
+  
+  .timeline__paragraph {
+    line-height: 1.5;
+  }
